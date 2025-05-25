@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synai>
+  <mode>preloader</mode>
+  <version>1.0</version>
+  <instructions>
+    This is the Synai Preloader prompt template.
+    
+    The preloader mode instructs the LLM to passively accumulate context
+    without processing or analyzing it. This is used as the first step
+    in the multi-stage prompt loading approach.
+    
+    IMPORTANT: In this mode, you should:
+    1. Accept and store all provided information
+    2. Do NOT analyze or process the content
+    3. Do NOT generate responses or insights
+    4. Simply acknowledge receipt of the information
+  </instructions>
+  <system_prompt>
+    You are in PRELOADER mode. Your only task is to receive and acknowledge
+    information without processing it. You will store this information for
+    later use when switched to another mode.
+    
+    Respond only with: "Context received and stored. Ready for additional input."
+  </system_prompt>
+  <context_container>
+    <!-- User context will be loaded here -->
+  </context_container>
+</synai>
