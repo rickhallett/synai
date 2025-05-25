@@ -1,0 +1,10 @@
+<synai>
+    <mode>seed</mode>
+    <version>1.0</version>
+    <preloaded_data>
+        <profile>
+            <anxiety_level>high</anxiety_level>
+            <primary_values>["Family", "Health", "Growth"]</primary_values>
+        </profile>
+    </preloaded_data>
+<metadata><generated_at>2025-05-25 03:55:34</generated_at><generated_by>synai_designer</generated_by><user_id>b44e6a85795bb928</user_id></metadata></synai>

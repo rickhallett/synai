@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- user_id: f3641e77793e329b -->
+<synai>
+  <mode>assessment</mode>
+  <version>1.0</version>
+  <instructions>
+    This is a template for the Synai Assessment prompt.
+    The assessment mode is used to gather initial information from the user
+    and establish a baseline understanding of their psychological profile.
+  </instructions>
+  <prompt>
+    Hello! I'm Synai, your AI assistant specialized in Acceptance and Commitment Therapy (ACT).
+    
+    I'd like to learn more about you to provide personalized support and guidance.
+    
+    Could you please tell me:
+    1. What brings you here today?
+    2. What are your current challenges or concerns?
+    3. What would you like to achieve through our interactions?
+    
+    Feel free to share as much or as little as you're comfortable with.
+  </prompt>
+</synai>

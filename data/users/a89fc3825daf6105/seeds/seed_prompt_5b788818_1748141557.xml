@@ -1,0 +1,36 @@
+<synai>
+    <mode>seed</mode>
+    <version>1.0</version>
+    <preloaded_data>
+        <psychological_profile>
+            <concepts>
+                <concept>
+                    <id>work_anxiety_001</id>
+                    <type>emotion</type>
+                    <content>Anxiety in work situations</content>
+                    <act_dimension>experiential_avoidance</act_dimension>
+                    <harris_area>C</harris_area>
+                    <weight>0.85</weight>
+                    <links>["avoidance_pattern_001", "procrastination_001"]</links>
+                </concept>
+                <concept>
+                    <id>avoidance_pattern_001</id>
+                    <type>behavior</type>
+                    <content>Avoiding difficult conversations</content>
+                    <act_dimension>experiential_avoidance</act_dimension>
+                    <harris_area>C</harris_area>
+                    <weight>0.75</weight>
+                </concept>
+            </concepts>
+            <values>
+                <value>
+                    <id>family_value_001</id>
+                    <content>Being present and supportive for loved ones</content>
+                    <harris_area>D</harris_area>
+                    <importance>0.9</importance>
+                </value>
+            </values>
+        </psychological_profile>
+    </preloaded_data>
+    <data>{"summary": "User shows patterns of experiential avoidance in work contexts"}</data>
+<metadata><generated_at>2025-05-25 03:52:37</generated_at><generated_by>synai_designer</generated_by><user_id>a89fc3825daf6105</user_id></metadata></synai>
